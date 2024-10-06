@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 int i = 1;
 int j = 1;
@@ -96,5 +97,5 @@ return 0;
 
 void clearInputBuffer(){
     int c;
-    // while ((c = getchar()) != '\n' && c != EOF);
+    while ((c = getchar()) != '\n' && c != EOF);
     }
